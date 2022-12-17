@@ -1,41 +1,30 @@
-# Quasar App (quasar-project)
 
-A Quasar Project
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
+# Proyecto Checkout Entradas a enventos
+
+Este proyecto es una aplicación web para la compra de entradas para entradas a Eventos.
+
+Este proyecto esta desarrollado en Quasar Vue.js
+
+## Requerimientos
+
+Para ejecutar este proyecto se necesita tener instalado docker y docker-compose.
+
+## Instalación
+
+Para ejecutar el proyecto, clonar el repositorio y ejecutar los siguientes comandos:
+
+```
+docker-compose build
+docker-compose up
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+La aplicación quedará publicada en http://localhost:8080/#/
 
+## Archivos creados
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
+Los archivos creados para este proyecto son los siguientes:
 
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
+- src/components/EventoItem.vue
+- src/pages/CheckoutPage.vue
+- src/page/IndexPage.vue
