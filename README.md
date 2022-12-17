@@ -2,9 +2,9 @@
 
 # Proyecto Checkout Entradas a enventos
 
-Este proyecto es una aplicación web para la compra de entradas para entradas a Eventos.
+Este proyecto es el frontend  de una aplicación para la compra de entradas  a Eventos.
 
-Este proyecto esta desarrollado en Quasar Vue.js
+Esta desarrollado en Quasar Vue.js
 
 ## Requerimientos
 
